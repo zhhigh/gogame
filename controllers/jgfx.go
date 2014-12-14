@@ -8,6 +8,6 @@ type Jgfx struct {
 	beego.Controller
 }
 
-func (c *jgfx) Get() {
+func (c *Jgfx) Get() {
 	c.TplNames = "index.html"
 }
