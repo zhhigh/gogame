@@ -9,5 +9,5 @@ type JgfxController struct {
 }
 
 func (c *JgfxController) Get() {
-	c.TplNames = "jgfx/jgfx.html"
+	c.TplNames = "jgfx.html"
 }
