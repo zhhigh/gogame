@@ -7,4 +7,5 @@ import (
 
 func init() {
     beego.Router("/", &controllers.MainController{})
+	beego.Router("/jgfx", &controllers.MainController{})//激光防线
 }
