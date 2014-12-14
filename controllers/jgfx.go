@@ -11,5 +11,6 @@ type Jgfx struct {
 func (c *Jgfx) Get() {
 	beego.Debug("this is trace for get")
 	c.TplNames = "jgfx.html"
+	beego.Debug("this is trace for post")
 
 }
