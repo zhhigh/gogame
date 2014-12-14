@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "gogame/routers"
+	_ "github.com/zhhigh/gogame/routers"
 	"github.com/astaxie/beego"
 )
 
