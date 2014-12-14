@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"gogame/controllers"
+	"github.com/zhhigh/gogame/controllers"
 	"github.com/astaxie/beego"
 )
 
