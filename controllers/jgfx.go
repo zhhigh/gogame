@@ -10,7 +10,7 @@ type Jgfx struct {
 
 func (c *Jgfx) Get() {
 	beego.Debug("this is trace for get")
-	c.TplNames = this.getTplFileName("login")
+	c.TplNames = c.getTplFileName("login")
 	//this.TplNames = this.getTplFileName("login")
 	beego.Debug("this is trace for post")
 
