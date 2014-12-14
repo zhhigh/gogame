@@ -4,7 +4,7 @@ import (
 	"github.com/astaxie/beego"
 )
 
-type jgfx struct {
+type Jgfx struct {
 	beego.Controller
 }
 
