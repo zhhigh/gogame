@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"gotmp/controllers"
+	"gogame/controllers"
 	"github.com/astaxie/beego"
 )
 
