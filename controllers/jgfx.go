@@ -9,5 +9,7 @@ type Jgfx struct {
 }
 
 func (c *Jgfx) Get() {
+	beego.Trace("this is trace for get")
 	c.TplNames = "jgfx.html"
+
 }
